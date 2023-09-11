@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tabular Form Example</title>
+</head>
+<body>
+  <h1>Student Information</h1>
+  <form>
+    <table border="1">
+      <tr>
+        <th>Roll Number</th>
+        <td><input type="text" name="roll_number"></td>
+      </tr>
+      <tr>
+        <th>Name</th>
+        <td><input type="text" name="name"></td>
+      </tr>
+      <tr>
+        <th>Password</th>
+        <td><input type="password" name="password"></td>
+      </tr>
+      <tr>
+        <th>Re-password</th>
+        <td><input type="password" name="Re-password"></td>
+      </tr>
+      <tr>
+        <th>State</th>
+        <td><input type="text" name="State"></td>
+      </tr>
+      <tr>
+        <th>Address</th>
+        <td><textarea type="text" name="name"></textarea></td>
+      </tr>
+      <tr>
+        <th>Age</th>
+        <td><input type="number" name="age"></td>
+      </tr>
+      <tr>
+        <th>Gender</th>
+        <td>
+          <input type="radio" name="gender" value="male"> Male
+          <input type="radio" name="gender" value="female"> Female
+        </td>
+      </tr>
+      <tr>
+        <th>City</th>
+        <td>
+          <select name="city">
+            <option value="new_york">New York</option>
+            <option value="los_angeles">Los Angeles</option>
+            <option value="chicago">Chicago</option>
+            <option value="houston">Houston</option>
+          </select>
+        </td>
+      </tr>
+    </table>
+    <br>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
